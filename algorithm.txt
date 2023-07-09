@@ -12,4 +12,6 @@
  - Social: django.contrib.sites, allauth - settings.py. dj-rest-auth.reg in project/urls.py.
 6. Viewset va Router: Bir necha viewlarni bitta classda bajarish - viewset, shularni viewlarini yonaltirib beruvchi narsa - Router
 7. Deployment
+ - Gunicorn. Procfile > linked to project wsgi. runtime.txt (helps in Railway to know which version of Python we used), Allowed_hosts['*']
+ - Staticfiles added (collectstatic - admin, package va rest_framework stillarini collect qilib olish shart deploydan oldin)
  - Railway: 
