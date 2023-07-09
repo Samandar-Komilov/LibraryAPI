@@ -1,0 +1,15 @@
+=====> BOOK PROJECT <=====
+
+1. ListAPIView, CRUD views, 
+2. Generic views: ListCreate, RetrieveUpdateDelete, 
+2. Postman & Redoc & Swagger install: drf-yasg -> settings.py
+3. APIView > Rewrote all generic views based on APIView
+4. ModelSerializer > Avtomatik bazaga save bo'ladi, Serializer > esa directly serialize qilish uchun, ikkinchisi tezroq va xavfsizroq
+5. Authentication
+ - Validation & FieldValidation > def validate() method
+ - authentication process > 1. basic, 2. session, 3. token
+ - dj-rest-auth && django-allauth (install+add-to-settings.py): rest_framework.authtoken in apps, add REST_FRAMEWORK settings, [migrations, migrate], 
+ - Social: django.contrib.sites, allauth - settings.py. dj-rest-auth.reg in project/urls.py.
+6. Viewset va Router: Bir necha viewlarni bitta classda bajarish - viewset, shularni viewlarini yonaltirib beruvchi narsa - Router
+7. Deployment
+ - Railway: 
